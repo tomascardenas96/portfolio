@@ -1,7 +1,6 @@
 .main-menu__container {
   position: fixed;
   display: flex;
-  justify-content: center;
   align-items: center;
   left: 28vw;
   width: calc(100vw - 28vw);
@@ -10,9 +9,10 @@
 
 .main-menu {
   display: flex;
-  width: 50%;
-  justify-content: space-around;
-  font-size: 1.03rem;
+  width: 90%;
+  gap: 50px;  
+  justify-content: center;
+  font-size: 1.07rem;
 }
 
 .main-menu li {
