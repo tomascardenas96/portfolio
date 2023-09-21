@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+
+.side-card__container {
+  width: 28vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-card {
+  width: 85%;
+  height: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 70px 0px 70px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-card__content {
+  width: 85%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-card__content__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-grow: 0.2;
+}
+
+.side-card__content__header p:first-child {
+  font-size: 2.8rem;
+  font-family: "Damion", cursive;
+  display: flex;
+  align-items: center;
+  color: #c44800b8;
+  cursor: pointer;
+}
+
+.side-card__content__header p:nth-child(2) {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  text-align: end;
+  color: rgba(0, 0, 0, 0.802);
+}
+
+.side-card__content__picture {
+  flex-grow: 4;
+  padding: 10px;
+  background-image: url(https://wallpapers.com/images/hd/cool-profile-picture-1ecoo30f26bkr14o.jpg);
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 70px 0px 70px 0px;
+}
+
+.side-card__content__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 0 0;
+  justify-content: space-between;
+}
+
+.side-card__content__social {
+  flex-grow: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.side-card__content__social p {
+  font-size: 1.3rem;
+  border: 2px solid rgba(0, 0, 0, 0.802);
+  color: rgba(0, 0, 0, 0.802);
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.side-card__content__btn {
+  flex-grow: 0.5;
+  border: none;
+  border-radius: 70px;
+  background-color: #c44800b8;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.side-card__content__btn-letter {
+  font-size: 2rem;
+}
+
+.side-card__content__info p:nth-child(1) {
+  font-size: 1.3rem;
+}
+
+.side-card__content__info p:nth-child(2) {
+  margin-top: -30px;
+  font-size: 1.2rem;
+}
+
+.side-card__content__info p:nth-child(3) {
+  font-size: 0.95rem;
+}
