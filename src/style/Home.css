@@ -1,0 +1,17 @@
+.home-page__container {
+    margin-left: 28vw;
+    width: calc(100vw - 28vw);
+    height: 100vh;
+}
+
+.home-page {
+    width: 90%;
+    height: 500%;
+    margin-top: 10vh;
+}
+
+.home-page__svg {
+    width: 400px;
+    margin-left: 47vw;
+    margin-top: -7vh;
+}
