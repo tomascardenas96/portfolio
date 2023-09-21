@@ -1,0 +1,25 @@
+.main-menu__container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 28vw;
+  width: calc(100vw - 28vw);
+  height: 10vh;
+}
+
+.main-menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  font-size: 1.03rem;
+}
+
+.main-menu li {
+  cursor: pointer;
+}
+
+.main-menu li:hover {
+  border-bottom: 1.5px solid black;
+  margin-bottom: -1.5px;
+}
