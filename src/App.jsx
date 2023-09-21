@@ -1,5 +1,6 @@
 import "./App.css";
 import SideCard from "./components/SideCard";
+import SideMenu from "./components/SideMenu";
 import Menu from "./components/menu";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <SideCard />
       <Menu />
+      <SideMenu/>
     </>
   );
 }

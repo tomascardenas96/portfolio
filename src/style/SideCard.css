@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.189);
 }
 
 .side-card__content {
@@ -79,8 +80,8 @@
 
 .side-card__content__social p {
   font-size: 1.3rem;
-  border: 2px solid rgba(0, 0, 0, 0.802);
-  color: rgba(0, 0, 0, 0.802);
+  border: 2px solid #04151fcf;
+  color: #04151fcf;
   padding: 13px;
   display: flex;
   align-items: center;
