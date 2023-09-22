@@ -26,11 +26,12 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #c448008d;
+  background: #c44800b8;
 }
 
 :root {
   --font-color: #04151fce;
+  --highlight-span: #c44800c0;
 }
 
 body {

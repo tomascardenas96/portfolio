@@ -39,7 +39,7 @@
 }
 
 .home-page__personal-info h1 span {
-  color: #C44900;
+  color: var(--highlight-span);
   letter-spacing: 5px;
 }
 
