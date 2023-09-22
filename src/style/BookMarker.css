@@ -2,12 +2,11 @@
     width: 180px;
     height: 50px;
     border-radius: 70px;
-    border: 1px solid #c44800b8;
+    border: 1px solid black;
     display: flex;
     padding-left: 25px;
     align-items: center;
     background-color: #f5e7ce;
-    box-shadow: 0 0 0px 1.5px rgba(255, 255, 255, 0.692);
 }
 
 .book-marker p:nth-child(1) {

@@ -4,6 +4,7 @@ import SideMenu from "./components/SideMenu";
 import Menu from "./components/Menu";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SideMenu/>
       <Home/>
       <AboutMe/>
+      <Skills/>
     </>
   );
 }
