@@ -1,17 +1,86 @@
 .home-page__container {
-    margin-left: 28vw;
-    width: calc(100vw - 28vw);
-    height: 100vh;
+  margin-left: 28vw;
+  width: calc(100vw - 28vw);
+  height: 100vh;
+
 }
 
 .home-page {
-    width: 90%;
-    height: 500%;
-    margin-top: 10vh;
+  width: 90%;
+  height: calc(100vh - 10vh);
+  top: 10vh;
+  padding: 10px 100px 15vh 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
 }
 
 .home-page__svg {
-    width: 400px;
-    margin-left: 47vw;
-    margin-top: -7vh;
+  width: 350px;
+  position: absolute;
+  top: -50px;
+  right: -150px;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.home-page__personal-info {
+  margin-top: 35px;
+  width: 600px;
+}
+
+.home-page__personal-info h1 {
+  font-size: 4.2rem;
+  color: #04151fcc;
+  letter-spacing: 3px;
+  line-height: 70px;
+  overflow: hidden;
+}
+
+.home-page__personal-info h1 span {
+  color: #C44900;
+  letter-spacing: 5px;
+}
+
+.home-page__personal-info p {
+  margin-top: 20px; 
+  color: #04151fa7;
+  font-size: 1.25rem;
+  width: 450px;
+  letter-spacing: 2px;
+}
+
+.home-page__personal-info__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.home-page__download {
+  color: #04151f9b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 12vh;
+  justify-content: space-around;
+}
+
+.home-page__download button {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #C44900;
+  border-radius: 70px;
+  color:#C44900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.home-page__download-icon {
+  font-size: 1.5rem;
 }

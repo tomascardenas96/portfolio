@@ -1,0 +1,11 @@
+.about-me__container {
+    margin-left: 28vw;
+    width: calc(100vw - 28vw);
+    height: 100vh;
+}
+
+.about-me {
+    width: 90%;
+    height: calc(100vh - 10vh);
+    padding: 10px 100px;
+}
