@@ -4,7 +4,7 @@ import { BiLogoReact } from "react-icons/bi";
 function SkillCard(props) {
   return (
     <div className="skill-card__container">
-       <p className="icon">{props.icon}</p>
+      {props.icon}
       <p>{props.title}</p>
     </div>
   );
