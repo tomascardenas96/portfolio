@@ -18,14 +18,15 @@
   padding: 50px 2px;
 }
 
-.skills-page__cards p {
+.skills-page__cards .skill-icons {
   font-size: 7rem;
   margin-top: 10px;
+  transition: outline 3s;
 }
 
 .skills-page__cards .skill-icons:hover {
   border-radius: 16px;
-  outline: 1px solid #d2753b;
+  outline: 1.3px solid #d2753b;
 }
 
 
