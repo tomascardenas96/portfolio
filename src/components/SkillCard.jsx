@@ -1,5 +1,4 @@
 import "../style/SkillCard.css";
-import { BiLogoReact } from "react-icons/bi";
 
 function SkillCard(props) {
   return (

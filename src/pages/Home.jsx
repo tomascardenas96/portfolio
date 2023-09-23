@@ -2,6 +2,7 @@ import BookMarker from "../components/BookMarker";
 import { CiHome } from "react-icons/ci";
 import "../style/Home.css";
 import {GoDownload} from "react-icons/go";
+import DownloadBtn from "../components/DownloadBtn";
 
 function Home() {
   return (
@@ -44,7 +45,7 @@ function Home() {
           </div>
           <div className="home-page__download">
             <h2>- Download my Curriculum Vitae -</h2>
-            <button><GoDownload className="home-page__download-icon"/> Download!</button>
+            <DownloadBtn/>
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import "../style/DownloadBtn.css";
+import {GoDownload} from "react-icons/go";
 
 function DownloadBtn() {
   return (
     <>
-      <div className="download-button">
-      </div>
+      <button><GoDownload className="home-page__download-icon"/> <p>Download!</p></button>
     </>
   );
 }

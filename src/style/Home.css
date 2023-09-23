@@ -67,21 +67,3 @@
   justify-content: space-around;
 }
 
-.home-page__download button {
-  width: 300px;
-  height: 50px;
-  border: 1px solid #C44900;
-  border-radius: 70px;
-  color:#C44900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  margin-top: 30px;
-  letter-spacing: 2px;
-}
-
-.home-page__download-icon {
-  font-size: 1.5rem;
-}

@@ -1,7 +1,7 @@
 .skills__container {
   margin-left: 28vw;
   width: calc(100vw - 28vw);
-  height: 200vh;
+  height: 120vh;
 }
 
 .skills-page {
@@ -9,57 +9,58 @@
   padding: 0 100px;
 }
 
-.skills-page__cards p {
-  font-size: 8rem;
-  margin-top: 10px;
-}
-
-.skills-page__cards .skill-icons:hover {
-    border-radius: 16px;
-    outline: 1px solid #D2753B;
-}
-
 .skills-page__cards {
   display: flex;
   height: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 20px;
+  row-gap: 10px;
   padding: 50px 2px;
 }
 
+.skills-page__cards p {
+  font-size: 7rem;
+  margin-top: 10px;
+}
+
+.skills-page__cards .skill-icons:hover {
+  border-radius: 16px;
+  outline: 1px solid #d2753b;
+}
+
+
 .html-icon {
-    color: rgb(241,101,41);
+  color: rgb(241, 101, 41);
 }
 
 .js-icon {
-    color: rgb(233,202,49);
+  color: rgb(233, 202, 49);
 }
 
 .ts-icon {
-    color: rgb(45,121,199);
+  color: rgb(45, 121, 199);
 }
 
 .css-icon {
-    color: rgb(33,76,229);
+  color: rgb(33, 76, 229);
 }
 
 .react-icon {
-    color: rgb(97,219,251);
+  color: rgb(97, 219, 251);
 }
 
 .nest-icon {
-    color: rgb(225,30,77);
+  color: rgb(225, 30, 77);
 }
 
 .github-icon {
-    color: rgb(20,25,30);
+  color: rgb(20, 25, 30);
 }
 
 .git-icon {
-    color: rgb(240,80,48);
+  color: rgb(240, 80, 48);
 }
 
 .sql-icon {
-    color: rgb(0,103,141);
+  color: rgb(0, 103, 141);
 }
