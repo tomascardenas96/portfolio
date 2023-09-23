@@ -1,7 +1,6 @@
 .skills__container {
   margin-left: 28vw;
-  width: calc(100vw - 28vw);
-  height: 120vh;
+  width: calc(100vw - 28.7vw);
 }
 
 .skills-page {

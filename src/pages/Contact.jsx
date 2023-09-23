@@ -1,59 +1,85 @@
 import "../style/Contact.css";
 import BookMarker from "../components/BookMarker";
 import { PiEnvelopeSimpleThin } from "react-icons/pi";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 function Contact() {
   const [contact, setContact] = useState({
-    name: "",
-    email: "",
-    subject: "",
+    user_name: "",
+    user_email: "",
+    user_subject: "",
     message: "",
   });
 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_yys7pbm",
+        "template_d3yzm0l",
+        form.current,
+        "bMj25TZhs6-FtTR7u"
+      )
+      .then(
+        (result) => {
+          Swal.fire("Your message", "has been sent!", "success");
+          setContact({
+            user_name: "",
+            user_email: "",
+            user_subject: "",
+            message: "",
+          });
+        },
+        (error) => { 
+          Swal.fire({
+            icon: 'error',
+            title: 'Your message cannot be',
+            text: 'sent, please try again!',
+          })
+        }
+      );
+  };
+
   function handleChange(e) {
     setContact({ ...contact, [e.target.name]: e.target.value });
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(contact);
   }
 
   return (
     <section className="contact-me__container">
       <div className="contact-me">
         <BookMarker icon={<PiEnvelopeSimpleThin />} title="Contact" />
-        <form className="contact-me__form" onSubmit={handleSubmit}>
-          <label htmlFor="name">Your name</label>
+        <form ref={form} className="contact-me__form" onSubmit={sendEmail}>
+          <label htmlFor="user_name">Your name</label>
           <input
             type="text"
-            name="name"
-            id="name"
-            value={contact.name}
+            name="user_name"
+            value={contact.user_name}
             onChange={handleChange}
           />
-          <label htmlFor="email">Your email</label>
+          <label htmlFor="user_email">Your email</label>
           <input
             type="email"
-            name="email"
-            id="email"
-            value={contact.email}
+            name="user_email"
+            value={contact.user_email}
             onChange={handleChange}
           />
-          <label htmlFor="subject">Subject</label>
+          <label htmlFor="user_subject">Subject</label>
           <input
             type="text"
-            name="subject"
-            id="subject"
-            value={contact.subject}
+            name="user_subject"
+            value={contact.user_subject}
             onChange={handleChange}
           />
           <label htmlFor="message">Your message</label>
           <textarea
             type="text"
             name="message"
-            id="message"
             value={contact.message}
             onChange={handleChange}
           />

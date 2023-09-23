@@ -1,7 +1,6 @@
 .contact-me__container {
     margin-left: 28vw;
-    width: calc(100vw - 28vw);
-    height: 85vh;
+    width: calc(100vw - 28.7vw);
 }
 
 .contact-me {
