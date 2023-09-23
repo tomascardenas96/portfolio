@@ -8,11 +8,11 @@ function Contact() {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
 
   function handleChange(e) {
-    setContact(({ ...contact, [e.target.name]: e.target.value }));
+    setContact({ ...contact, [e.target.name]: e.target.value });
   }
 
   function handleSubmit(e) {
