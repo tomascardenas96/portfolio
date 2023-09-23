@@ -18,33 +18,33 @@ function Skills() {
       <div className="skills-page">
         <BookMarker icon={<CiGrid32 />} title="Skills" />
         <div className="skills-page__cards">
-          <p className="html-icon skill-icons">
+          <div className="html-icon skill-icons">
             <SkillCard icon={<AiFillHtml5 />} title="HTML" />
-          </p>
-          <p className="js-icon skill-icons">
+          </div>
+          <div className="js-icon skill-icons">
             <SkillCard icon={<BiLogoJavascript />} title="Javascript" />
-          </p>
-          <p className="ts-icon skill-icons">
+          </div>
+          <div className="ts-icon skill-icons">
             <SkillCard icon={<BiLogoTypescript />} title="Typescript" />
-          </p>
-          <p className="css-icon skill-icons">
+          </div>
+          <div className="css-icon skill-icons">
             <SkillCard icon={<BiLogoCss3 />} title="Css" />
-          </p>
-          <p className="react-icon skill-icons">
+          </div>
+          <div className="react-icon skill-icons">
             <SkillCard icon={<BiLogoReact />} title="React js" />
-          </p>
-          <p className="nest-icon skill-icons">
+          </div>
+          <div className="nest-icon skill-icons">
             <SkillCard icon={<SiNestjs />} title="Nest js" />
-          </p>
-          <p className="github-icon skill-icons">
+          </div>
+          <div className="github-icon skill-icons">
             <SkillCard icon={<AiFillGithub />} title="Git hub" />
-          </p>
-          <p className="git-icon skill-icons">
+          </div>
+          <div className="git-icon skill-icons">
             <SkillCard icon={<BsGit />} title="Git" />
-          </p>
-          <p className="sql-icon skill-icons">
+          </div>
+          <div className="sql-icon skill-icons">
             <SkillCard icon={<GrMysql />} title="MySql" />
-          </p>
+          </div>
         </div>
       </div>
     </section>
