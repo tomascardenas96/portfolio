@@ -8,11 +8,11 @@ function Contact() {
     name: "",
     email: "",
     subject: "",
-    message: "",
+    message: ""
   });
 
   function handleChange(e) {
-    setContact((e) => ({ ...contact, [e.target.name]: e.target.value }));
+    setContact(({ ...contact, [e.target.name]: e.target.value }));
   }
 
   function handleSubmit(e) {
@@ -30,7 +30,7 @@ function Contact() {
             type="text"
             name="name"
             id="name"
-            // value={e.target.value}
+            value={contact.name}
             onChange={handleChange}
           />
           <label htmlFor="email">Your email</label>
@@ -38,7 +38,7 @@ function Contact() {
             type="email"
             name="email"
             id="email"
-            // value={e.target.value}
+            value={contact.email}
             onChange={handleChange}
           />
           <label htmlFor="subject">Subject</label>
@@ -46,7 +46,7 @@ function Contact() {
             type="text"
             name="subject"
             id="subject"
-            // value={e.target.value}
+            value={contact.subject}
             onChange={handleChange}
           />
           <label htmlFor="message">Your message</label>
@@ -54,7 +54,7 @@ function Contact() {
             type="text"
             name="message"
             id="message"
-            // value={e.target.value}
+            value={contact.message}
             onChange={handleChange}
           />
           <button type="submit">Submit</button>
