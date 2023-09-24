@@ -14,11 +14,13 @@ function Contact() {
     message: "",
   });
 
+  const [loading, setLoading] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setLoading(true);
     emailjs
       .sendForm(
         "service_yys7pbm",
@@ -28,6 +30,7 @@ function Contact() {
       )
       .then(
         (result) => {
+          setLoading(false);
           Swal.fire("Your message", "has been sent!", "success");
           setContact({
             user_name: "",
@@ -36,12 +39,12 @@ function Contact() {
             message: "",
           });
         },
-        (error) => { 
+        (error) => {
           Swal.fire({
-            icon: 'error',
-            title: 'Your message cannot be',
-            text: 'sent, please try again!',
-          })
+            icon: "error",
+            title: "Your message cannot be",
+            text: "sent, please try again!",
+          });
         }
       );
   };
@@ -84,6 +87,7 @@ function Contact() {
             onChange={handleChange}
           />
           <button type="submit">Submit</button>
+          {loading ? <span className="loader"></span> : null}
         </form>
       </div>
     </section>
