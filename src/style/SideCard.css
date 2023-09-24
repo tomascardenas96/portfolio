@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 .side-card__container {
   width: 28vw;
@@ -38,7 +38,8 @@
 
 .side-card__content__header p:first-child {
   font-size: 2.8rem;
-  font-family: "Damion", cursive;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.482);
   display: flex;
   align-items: center;
   color: #c44800b8;
@@ -56,7 +57,7 @@
 .side-card__content__picture {
   flex-grow: 4;
   padding: 10px;
-  background-image: url(https://media.revistagq.com/photos/606b3183a359af169e483dcb/1:1/w_775%2Cc_limit/estar-guapo.jpeg);
+  background-image: url("../assets/tt.jpg");
   background-size: cover;
   border-radius: 70px 0px 70px 0px;
 }
