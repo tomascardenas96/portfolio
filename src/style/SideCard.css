@@ -140,8 +140,8 @@
   }
 
   .side-card {
-    width: 265px;
-    height: 480px;
+    width: 23rem;
+    height: 44rem;
     border-radius: 45px 0px 45px 0px;
   }
 
@@ -152,6 +152,10 @@
 
   .side-card__content__header {
     padding: 0 10px;
+  }
+
+  .side-card__content__header p:first-child {
+    padding-right: 1rem;
   }
 
   .side-card__content__picture {
