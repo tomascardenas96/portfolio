@@ -23,7 +23,7 @@
     padding: 20px 0;
 }
 
-.aside-menu ul li {
+.aside-menu ul li a {
     color: #c44800;
     font-size: 1.6rem;
     cursor: pointer;

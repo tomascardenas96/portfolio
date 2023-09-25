@@ -62,6 +62,10 @@
   color: white;
 }
 
+.contact-me__form button[type="submit"]:active {
+  background-color: #c4652e;
+}
+
 .loader {
   position: absolute;
   width: 85px;

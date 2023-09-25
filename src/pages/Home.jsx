@@ -6,8 +6,8 @@ import DownloadBtn from "../components/DownloadBtn";
 
 function Home() {
   return (
-    <main className="home-page__container">
-      <div className="home-page">
+    <section className="home-page__container" id="home-page">
+      <div className="home-page" >
         <svg
           className="home-page__svg"
           xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 

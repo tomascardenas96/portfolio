@@ -14,7 +14,7 @@ import "../style/Skills.css";
 
 function Skills() {
   return (
-    <section className="skills__container">
+    <section className="skills__container" id="skills-page">
       <div className="skills-page">
         <BookMarker icon={<CiGrid32 />} title="Skills" />
         <div className="skills-page__cards">

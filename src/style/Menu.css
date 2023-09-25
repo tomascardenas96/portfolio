@@ -27,7 +27,11 @@
   cursor: pointer;
 }
 
+.main-menu li a {
+  color: var(--font-color);
+}
+
 .main-menu li:hover {
-  border-bottom: 1.5px solid black;
+  border-bottom: 1.5px solid var(--font-color);
   margin-bottom: -1.5px;
 }

@@ -9,11 +9,11 @@ function SideMenu() {
     return(
         <aside className="aside-menu">
             <ul>
-                <li><CiHome/></li>
-                <li><CiUser/></li>
-                <li><CiGrid32/></li>
-                <li><PiBriefcaseThin/></li>
-                <li><PiEnvelopeSimpleThin/></li>
+                <li><a href="#home-page"><CiHome/></a></li>
+                <li><a href="#about-me-page"><CiUser/></a></li>
+                <li><a href="#skills-page"><CiGrid32/></a></li>
+                <li><a><PiBriefcaseThin/></a></li>
+                <li><a href="#contact-page"><PiEnvelopeSimpleThin/></a></li>
             </ul>
         </aside>
     )

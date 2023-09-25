@@ -2,10 +2,10 @@ import "../style/BookMarker.css"
 
 function BookMarker(props) {
     return(
-        <div className="book-marker">
+        <section className="book-marker" id={props.id}>
             <p>{props.icon}</p>
             <p>{props.title}</p>
-        </div>
+        </section>
     )
 }
 

@@ -7,7 +7,7 @@
 .about-me {
     width: 90%;
     height: 100%;
-    padding: 10px 100px;
+    padding: 10vh 100px 0 100px;
 }
 
 .about-me__content {

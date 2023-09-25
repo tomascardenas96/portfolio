@@ -54,7 +54,7 @@ function Contact() {
   }
 
   return (
-    <section className="contact-me__container">
+    <section className="contact-me__container" id="contact-page">
       <div className="contact-me">
         <BookMarker icon={<PiEnvelopeSimpleThin />} title="Contact" />
         <form ref={form} className="contact-me__form" onSubmit={sendEmail}>
