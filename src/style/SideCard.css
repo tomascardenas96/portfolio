@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+body {
+  font-size: 16px;
+}
+
 .side-card__container {
   width: 28vw;
   height: 100vh;
@@ -132,4 +136,9 @@
 
 .side-card__content__info p:nth-child(3) {
   font-size: 0.95rem;
+}
+
+
+@media (max-width: 1300px) {
+  
 }
