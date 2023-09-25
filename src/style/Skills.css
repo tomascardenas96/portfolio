@@ -1,6 +1,6 @@
 .skills__container {
   margin-left: 28vw;
-  width: calc(100vw - 28.7vw);
+  width: calc(100vw - 29vw);
 }
 
 .skills-page {
@@ -63,4 +63,20 @@
 
 .sql-icon {
   color: rgb(0, 103, 141);
+}
+
+@media (max-width: 1300px) {
+  .skills-page {
+    width: 90%;
+    padding: 10vh 3rem 0 3rem;
+  }
+
+  .skills-page__cards {
+    row-gap: 1rem;
+    padding: 2rem 9rem 2rem 0;
+  }
+
+  .skills-page__cards .skill-icons:hover {
+    border-radius: 1rem;
+  }
 }

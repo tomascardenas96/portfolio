@@ -25,3 +25,14 @@
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 1300px) {
+    .home-page__download button {
+      width: 20rem;
+      height: 3.5rem;
+      border-radius: 3rem;
+      margin-top: 2rem;
+      letter-spacing: 0.2rem;
+      background-color: rgba(255, 255, 255, 0.927);
+    }
+  }

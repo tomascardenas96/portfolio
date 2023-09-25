@@ -1,6 +1,6 @@
 .contact-me__container {
   margin-left: 28vw;
-  width: calc(100vw - 28.7vw);
+  width: calc(100vw - 29vw);
 }
 
 .contact-me {
@@ -84,6 +84,7 @@
     60px center, 75px center, 90px center;
   animation: rikSpikeRoll 0.65s linear infinite alternate;
 }
+
 @keyframes rikSpikeRoll {
   0% {
     background-size: 10px 3px;
@@ -110,5 +111,57 @@
   100% {
     background-size: 10px 3px, 10px 3px, 10px 3px, 10px 10px, 10px 30px,
       10px 50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 11px;
+  }
+
+  .contact-me {
+    padding: 10vh 3rem 0 3rem;
+  }
+
+  .contact-me__form {
+    height: 80vh;
+    padding: 0 3rem 0 0;
+    margin-top: 0rem;
+  }
+
+  .contact-me__form > label {
+    font-size: 1.15rem;
+    height: 2.5rem;
+    margin-bottom: -0.8rem;
+  }
+  
+  .contact-me__form > input {
+    height: 3rem;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+
+  .contact-me__form textarea {
+    height: 15rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  .contact-me__form button[type="submit"] {
+    width: 14rem;
+    height: 3rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .loader {
+    bottom: 3.3rem;
+    left: 60%;
+    width: 70px;
+    height: 35px;
   }
 }
