@@ -44,6 +44,7 @@
   align-items: center;
   color: #c44800b8;
   cursor: pointer;
+  padding-right: 1rem;
 }
 
 .side-card__content__header p:nth-child(2) {
