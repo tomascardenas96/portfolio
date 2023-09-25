@@ -1,10 +1,20 @@
 import "../style/DownloadBtn.css";
-import {GoDownload} from "react-icons/go";
+import { GoDownload } from "react-icons/go";
+import cvTomas from "../assets/CV-Tomas-Cardenas.pdf";
 
 function DownloadBtn() {
   return (
     <>
-      <button><GoDownload className="home-page__download-icon"/> <p>Download!</p></button>
+        <a
+          href={cvTomas}
+          download="cv-Tomas-Cardenas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+      <button>
+          <GoDownload className="home-page__download-icon" /> <p>Download!</p>
+      </button>
+        </a>
     </>
   );
 }

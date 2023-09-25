@@ -21,3 +21,7 @@
   .home-page__download-icon {
     font-size: 1.5rem;
   }
+
+  a {
+    text-decoration: none;
+  }
