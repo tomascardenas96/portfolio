@@ -140,5 +140,7 @@ body {
 
 
 @media (max-width: 1300px) {
-  
+  .side-card__content__info p:nth-child(1) {
+    font-size: 1.1rem;
+  }
 }
