@@ -140,7 +140,18 @@ body {
 
 
 @media (max-width: 1300px) {
-  .side-card__content__info p:nth-child(1) {
-    font-size: 1.1rem;
+  html {
+    font-size: 11px;
+  }
+
+  .side-card {
+    width: 265px;
+    height: 480px;
+    border-radius: 45px 0px 45px 0px;
+  }
+
+  .side-card__content {
+    width: 85%;
+    height: 90%;
   }
 }
