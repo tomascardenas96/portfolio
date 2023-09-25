@@ -35,3 +35,14 @@
   border-bottom: 1.5px solid var(--font-color);
   margin-bottom: -1.5px;
 }
+
+@media (max-width: 1300px) {
+  .main-menu {
+    gap: 3rem;  
+  }
+
+  .main-menu li:hover {
+    border-bottom: 0.15rem solid var(--font-color);
+    margin-bottom: -0.15rem;
+  }
+}
