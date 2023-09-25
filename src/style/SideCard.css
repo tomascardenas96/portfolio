@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
-body {
-  font-size: 16px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 .side-card__container {
   width: 28vw;
@@ -42,7 +38,7 @@ body {
 
 .side-card__content__header p:first-child {
   font-size: 2.8rem;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.482);
   display: flex;
   align-items: center;
@@ -138,8 +134,6 @@ body {
   font-size: 2rem;
 }
 
-
-
 @media (max-width: 1300px) {
   html {
     font-size: 11px;
@@ -170,7 +164,7 @@ body {
   }
 
   .side-card__content__info p:nth-child(2) {
-    margin-top: -1.5rem;
+    margin-top: -1.2rem;
   }
 
   .side-card__content__social {
