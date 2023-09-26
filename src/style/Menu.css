@@ -46,3 +46,9 @@
     margin-bottom: -0.15rem;
   }
 }
+
+@media (max-width: 815px) {
+  .main-menu__container {
+    display: none;
+  }
+}

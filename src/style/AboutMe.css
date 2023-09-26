@@ -55,3 +55,35 @@
     line-height: 2.25rem;
   }
 }
+
+@media(max-width: 815px) {
+  .about-me__container {
+    margin-left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 80vh;
+  }
+
+  .about-me {
+    width: 90%;
+    padding: 4rem 2rem 7rem 2rem;
+  }
+
+  .about-me__content {
+    gap: 2rem;
+    padding-top: 4rem;
+  }
+
+  .about-me__content h2 {
+    max-width: 30ch;
+  }
+
+  .about-me__content p {
+    max-width: 60ch;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    color: var(--font-color);
+  }
+}

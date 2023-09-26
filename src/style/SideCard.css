@@ -182,3 +182,23 @@
     padding: 0.7rem;
   }
 }
+
+@media (max-width: 1440px) {
+  .side-card {
+    height: 44rem;
+  }
+}
+
+@media (max-width: 815px) {
+  .side-card__container {
+    width: 100vw;
+    position: static;
+    align-items: center;
+    
+  }
+
+  .side-card {
+    width: 30rem;
+    height: 50rem;
+  }
+}

@@ -23,6 +23,14 @@
   letter-spacing: 3px;
 }
 
+@media (max-width: 1440px) {
+  .skill-card__container {
+    width: 230px;
+    height: 250px;
+    padding-top: 45px;
+  }
+}
+
 @media (max-width: 1300px) {
   .skill-card__container {
     width: 17rem;

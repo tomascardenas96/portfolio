@@ -6,7 +6,7 @@
 .contact-me {
   width: 90%;
   height: 100%;
-  padding: 10px 100px;
+  padding: 6rem 100px;
 }
 
 .contact-me__form {
@@ -113,6 +113,30 @@
   100% {
     background-size: 10px 3px, 10px 3px, 10px 3px, 10px 10px, 10px 30px,
       10px 50px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contact-me__form button[type="submit"] {
+    margin-bottom: 0rem;
+  }
+
+  .contact-me__container {
+    height: 115vh;
+  }
+  .contact-me {
+    width: 90%;
+    height: 100%;
+    padding: 6rem 100px;
+  }
+  .contact-me__form {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    padding: 4rem 10px;
+    position: relative;
+    
   }
 }
 

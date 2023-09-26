@@ -13,6 +13,12 @@
     font-size: 0.8rem;
 }
 
+@media (max-width: 1440px) {
+    .footer__container {
+        margin-top: 0px;
+    }
+}
+
 @media (max-width: 1300px) {
     .footer__container {
         margin-top: 0;
