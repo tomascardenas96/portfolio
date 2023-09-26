@@ -135,6 +135,45 @@
   font-size: 2rem;
 }
 
+/* Media querys */
+
+@media (max-width: 1440px) {
+  .side-card {
+    height: 44rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 14.5px;
+  }
+
+  .side-card {
+    width: 340px;
+    height: 610px;
+    border-radius: 3rem 0px 3rem 0px;
+  }
+
+  .side-card__content__picture {
+    flex-grow: 5;
+    border-radius: 3rem 0px 3rem 0px;
+  }
+
+  .side-card__content__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0 0 0;
+    justify-content: space-between;
+  }
+
+  .side-card__content__info p:nth-child(2) {
+    margin-top: -1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 1300px) {
   html {
     font-size: 11px;
@@ -181,47 +220,13 @@
     border: 0.15rem solid #04151fcf;
     padding: 0.7rem;
   }
-
 }
 
-@media (max-width: 1440px) {
-  .side-card {
-    height: 44rem;
-  }
-}
-
-@media (max-width: 1366px) {
+@media (max-width: 720px) {
   html {
-    font-size: 14.5px;
+    font-size: 16px;
   }
 
-  .side-card {
-    width: 340px;
-    height: 610px;
-    border-radius: 3rem 0px 3rem 0px;
-  }
-
-  .side-card__content__picture {
-    flex-grow: 5;
-    border-radius: 3rem 0px 3rem 0px;
-  }
-
-  .side-card__content__info {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem 0 0 0;
-    justify-content: space-between;
-  }
-  
-  .side-card__content__info p:nth-child(2) {
-    margin-top: -1.5rem;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 815px) {
   .side-card__container {
     width: 100vw;
     position: static;
@@ -229,7 +234,55 @@
   }
 
   .side-card {
-    width: 30rem;
-    height: 50rem;
+    width: 43rem;
+    height: 80rem;
+    border-radius: 6rem 0px 6rem 0px;
+  }
+
+  .side-card__content__header p:first-child {
+    font-size: 5rem;
+  }
+
+  .side-card__content__header p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+
+  .side-card__content__info p:nth-child(1) {
+    font-size: 2.3rem;
+  }
+
+  .side-card__content__info p:nth-child(2) {
+    font-size: 2.2rem;
+    margin-top: -2.6rem;
+  }
+
+  .side-card__content__info p:nth-child(3) {
+    font-size: 1.8rem;
+  }
+
+  .side-card__content__social {
+    gap: 10px;
+  }
+
+  .side-card__content__social p {
+    font-size: 2.6rem;
+    padding: 1.5rem;
+  }
+
+  .side-card__content__btn button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  .side-card__content__btn-letter {
+    font-size: 3.5rem;
   }
 }
