@@ -31,14 +31,20 @@
   }
 }
 
+@media (max-width: 1366px) {
+  .skill-card__container {
+    width: 210px;
+    height: 240px;
+    padding-top: 3rem;
+    border-radius: 1rem;
+  }
+}
+
 @media (max-width: 1300px) {
   .skill-card__container {
     width: 17rem;
     height: 18rem;
     padding-top: 4rem;
     border-radius: 1rem;
-    backdrop-filter: blur(12.2px);
-    -webkit-backdrop-filter: blur(12.2px);
-    gap: 10px;
   }
 }

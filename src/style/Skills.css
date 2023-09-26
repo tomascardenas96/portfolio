@@ -65,6 +65,10 @@
   color: rgb(0, 103, 141);
 }
 
+@media (max-width: 1366px) {
+  
+}
+
 @media (max-width: 1300px) {
   .skills-page {
     width: 90%;
