@@ -47,6 +47,7 @@
     width: 22rem;
     height: 6rem;
     padding-left: 4rem;
+    align-self: center;
   }
 
   .book-marker p:nth-child(1) {

@@ -36,3 +36,22 @@
       background-color: rgba(255, 255, 255, 0.927);
     }
   }
+
+  @media (max-width: 720px) {
+    .home-page__download button {
+      width: 30rem;
+      height: 7rem;
+      border-radius: 5rem;
+      gap: 2rem;
+    }
+
+    
+  .home-page__download button p {
+    font-size: 2rem;
+  }
+
+  .home-page__download-icon {
+    font-size: 3rem;
+  }
+  
+  }
