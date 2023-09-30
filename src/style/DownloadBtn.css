@@ -1,16 +1,16 @@
 .home-page__download button {
-    width: 300px;
-    height: 50px;
+    width: 18.75rem;
+    height: 3.125rem;
     border: 1px solid #C44900;
-    border-radius: 70px;
+    border-radius: 4.375rem;
     color:#C44900;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: .625em;
     cursor: pointer;
-    margin-top: 30px;
-    letter-spacing: 2px;
+    margin-top: 1.875rem;
+    letter-spacing: .125rem;
     background-color: rgba(255, 255, 255, 0.927);
   }
 
@@ -24,34 +24,4 @@
 
   a {
     text-decoration: none;
-  }
-
-  @media (max-width: 1300px) {
-    .home-page__download button {
-      width: 20rem;
-      height: 3.5rem;
-      border-radius: 3rem;
-      margin-top: 2rem;
-      letter-spacing: 0.2rem;
-      background-color: rgba(255, 255, 255, 0.927);
-    }
-  }
-
-  @media (max-width: 720px) {
-    .home-page__download button {
-      width: 30rem;
-      height: 7rem;
-      border-radius: 5rem;
-      gap: 2rem;
-    }
-
-    
-  .home-page__download button p {
-    font-size: 2rem;
-  }
-
-  .home-page__download-icon {
-    font-size: 3rem;
-  }
-  
   }

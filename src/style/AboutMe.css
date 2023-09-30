@@ -1,13 +1,12 @@
 .about-me__container {
   margin-left: 28vw;
-  width: calc(100vw - 30vw);
-  height: 70vh;
+  width: calc(100% - 28vw);
 }
 
 .about-me {
   width: 90%;
-  height: 100%;
-  padding: 10vh 100px 0 100px;
+  padding: 5rem 8% 0;
+  min-height: calc(70vh);
 }
 
 .about-me__content {
@@ -15,8 +14,8 @@
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  gap: 32px;
-  padding-top: 45px;
+  gap: 2rem;
+  padding-top: 2.8125rem;
 }
 
 .about-me__content h2 {
@@ -31,59 +30,19 @@
 
 .about-me__content p {
   max-width: 48ch;
-  line-height: 30px;
+  line-height: 1.875rem;
   font-size: 1.2rem;
   color: var(--font-color);
 }
 
-@media (max-width: 1300px) {
-  html {
-    font-size: 11px;
-  }
+@media screen and (max-width: 1030px) {
 
-  .about-me {
-    padding: 10vh 3rem 0 3rem;
-  }
-
-  .about-me__content {
-    gap: 1.5rem;
-    padding-top: 2.3rem;
-  }
-
-  .about-me__content p {
-    max-width: 48ch;
-    line-height: 2.25rem;
-  }
-}
-
-@media(max-width: 815px) {
   .about-me__container {
     margin-left: 0;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    height: 80vh;
+    width: 100%;
   }
 
   .about-me {
-    width: 90%;
-    padding: 4rem 2rem 7rem 2rem;
-  }
-
-  .about-me__content {
-    gap: 2rem;
-    padding-top: 4rem;
-  }
-
-  .about-me__content h2 {
-    max-width: 30ch;
-  }
-
-  .about-me__content p {
-    max-width: 60ch;
-    line-height: 2.5rem;
-    font-size: 1.2rem;
-    color: var(--font-color);
+    margin: 0 auto; 
   }
 }

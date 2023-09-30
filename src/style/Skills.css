@@ -1,11 +1,12 @@
 .skills__container {
   margin-left: 28vw;
-  width: calc(100vw - 30vw);
+  width: calc(100% - 28vw);
+  padding-top: 5rem;
 }
 
 .skills-page {
   width: 90%;
-  padding: 10vh 100px 0 100px;
+  padding: 0.625rem 8% 0;
 }
 
 .skills-page__cards {
@@ -13,21 +14,22 @@
   height: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 10px;
-  padding: 50px 2px;
+  padding: 3.125rem 0.125rem;
+  width: 100%;
+  gap: 0.625rem;
 }
 
 .skills-page__cards .skill-icons {
   font-size: 7rem;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   transition: outline 3s;
+  flex-grow: 1;
 }
 
 .skills-page__cards .skill-icons:hover {
-  border-radius: 16px;
+  border-radius: 1rem;
   outline: 1.3px solid #d2753b;
 }
-
 
 .html-icon {
   color: rgb(241, 101, 41);
@@ -65,22 +67,23 @@
   color: rgb(0, 103, 141);
 }
 
-@media (max-width: 1366px) {
-  
+@media screen and (max-width: 1360px) {
+  .skills-page__cards {
+    display: block;
+  }
+
+  .skills-page__cards .skill-icons {
+    font-size: 8rem;
+  }
 }
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1030px) {
+  .skills__container {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .skills-page {
-    width: 90%;
-    padding: 10vh 3rem 0 3rem;
-  }
-
-  .skills-page__cards {
-    row-gap: 1rem;
-    padding: 2rem 9rem 2rem 0;
-  }
-
-  .skills-page__cards .skill-icons:hover {
-    border-radius: 1rem;
+    margin: 0 auto;
   }
 }

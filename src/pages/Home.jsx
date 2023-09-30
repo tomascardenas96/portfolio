@@ -1,13 +1,12 @@
 import BookMarker from "../components/BookMarker";
 import { CiHome } from "react-icons/ci";
 import "../style/Home.css";
-import {GoDownload} from "react-icons/go";
 import DownloadBtn from "../components/DownloadBtn";
 
 function Home() {
   return (
     <section className="home-page__container" id="home-page">
-      <div className="home-page" >
+      <div className="home-page">
         <svg
           className="home-page__svg"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +34,7 @@ function Home() {
         <div className="home-page__personal-info__container">
           <div className="home-page__personal-info">
             <h1>
-              I'm <span>Tomas</span>, trainee Fullstack Web Developer{" "}
+              I'm <span>Tomas</span>, trainee Fullstack Web Developer
             </h1>
             <p>
               Currently, i'm looking for my first work in IT industry to enhance
@@ -45,7 +44,7 @@ function Home() {
           </div>
           <div className="home-page__download">
             <h2>- Download my Curriculum Vitae -</h2>
-            <DownloadBtn/>
+            <DownloadBtn />
           </div>
         </div>
       </div>

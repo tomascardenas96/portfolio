@@ -1,10 +1,10 @@
 .book-marker {
-  width: 180px;
-  height: 50px;
-  border-radius: 70px;
+  width: 11.25em;
+  height: 3.125em;
+  border-radius: 4.375rem;
   border: 1px solid black;
   display: flex;
-  padding-left: 25px;
+  padding-left: 1.5625em;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.927);
 }
@@ -14,52 +14,13 @@
   display: flex;
   color: #c44800;
   flex-grow: 0;
-  margin-right: -25px;
+  margin-right: -1.5625em;
 }
 
 .book-marker p:nth-child(2) {
-  letter-spacing: 3px;
+  letter-spacing: .1875rem;
   flex-grow: 1;
   display: flex;
   justify-content: center;
   font-size: 0.9rem;
-}
-
-@media (max-width: 1300px) {
-  .book-marker {
-    width: 11rem;
-    height: 3.02rem;
-    border-radius: 3rem;
-    padding-left: 1.45rem;
-  }
-
-  .book-marker p:nth-child(1) {
-    font-size: 1.3rem;
-    display: flex;
-    color: #c44800;
-    flex-grow: 0;
-    margin-right: -1.4rem;
-  }
-}
-
-@media (max-width: 720px) {
-  .book-marker {
-    width: 22rem;
-    height: 6rem;
-    padding-left: 4rem;
-    align-self: center;
-  }
-
-  .book-marker p:nth-child(1) {
-    font-size: 2.5rem;
-    margin-right: -2rem;
-  }
-
-  .book-marker p:nth-child(2) {
-    letter-spacing: 3px;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    font-size: 1.7rem;
-  }
 }
