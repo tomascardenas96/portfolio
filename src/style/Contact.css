@@ -12,7 +12,6 @@
 .contact-me__form {
   display: flex;
   flex-direction: column;
-  height: 43.75rem;
   justify-content: center;
   padding: 2.5rem 0.625rem;
   position: relative;
@@ -126,5 +125,22 @@
 
   .contact-me {
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact-me {
+    margin: 0 auto;
+    padding: 5rem 0 0;
+    max-width: 95%;
+  }
+
+
+}
+
+@media screen and (max-width: 780px) {
+  .loader {
+    bottom: -0.625rem;
+    left: 40%;
   }
 }

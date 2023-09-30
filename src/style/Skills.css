@@ -87,3 +87,10 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .skills-page {
+    width: 95%;
+    padding: 5rem 0 0;
+  }
+}
