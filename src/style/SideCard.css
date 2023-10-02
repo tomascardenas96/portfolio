@@ -155,7 +155,7 @@
   }
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 700px) and (max-width: 1600px) {
   html {
     font-size: 60%;
   }
