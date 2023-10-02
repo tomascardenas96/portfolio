@@ -156,15 +156,17 @@
 }
 
 @media screen and (max-height: 650px) {
+  html {
+    font-size: 60%;
+  }
+
+  .side-card__container {
+    justify-content: center;
+  }
+
   .side-card {
     min-width: 21rem;
     height: 38rem;
-    border: 1px solid #c4480045;
-    border-radius: 4.375rem 0px 4.375rem 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.285);
-    margin: 0 5%;
+    margin: 0 0;
   }
 }
