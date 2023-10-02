@@ -6,6 +6,8 @@
   position: fixed;
   display: flex;
   align-items: center;
+  background-color: transparent;
+  z-index: 1500;
   /* top: 0; */
 }
 
