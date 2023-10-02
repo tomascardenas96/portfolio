@@ -11,21 +11,3 @@
     color: rgba(255, 255, 255, 0.671);
     font-size: 0.8rem;
 }
-
-@media (max-width: 1440px) {
-    .footer__container {
-        margin-top: 0px;
-    }
-}
-
-@media (max-width: 1300px) {
-    .footer__container {
-        margin-top: 0;
-        width: 99.4vw;
-        height: 2rem;
-        background-color: #04151fe1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}

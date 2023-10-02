@@ -6,12 +6,12 @@
   position: fixed;
   display: flex;
   align-items: center;
-  top: 0;
+  /* top: 0; */
 }
 
 .side-card {
   min-width: 24.375rem;
-  height: 47.5rem;
+  height: 81%;
   border: 1px solid #c4480045;
   border-radius: 4.375rem 0px 4.375rem 0px;
   display: flex;
@@ -39,7 +39,7 @@
 .side-card__content__header p:first-child {
   font-size: 2.8rem;
   font-family: "Kaushan Script", cursive;
-  text-shadow: .1875rem .1875rem 1px rgba(0, 0, 0, 0.482);
+  text-shadow: 0.1875rem 0.1875rem 1px rgba(0, 0, 0, 0.482);
   display: flex;
   align-items: center;
   color: #c44800b8;
@@ -57,7 +57,7 @@
 
 .side-card__content__picture {
   flex-grow: 4;
-  padding: .625rem;
+  padding: 0.625rem;
   background-image: url("../assets/tt.jpg");
   background-size: cover;
   border-radius: 4.375rem 0px 4.375rem 0px;
@@ -90,14 +90,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .625rem;
+  gap: 0.625rem;
 }
 
 .side-card__content__social p {
   font-size: 1.3rem;
   border: 2px solid #04151fcf;
   color: #04151fcf;
-  padding: .8125rem;
+  padding: 0.8125rem;
   display: flex;
   align-items: center;
   border-radius: 50%;
@@ -125,7 +125,7 @@
   align-items: center;
   background-color: transparent;
   border: none;
-  gap: .625rem;
+  gap: 0.625rem;
   color: white;
   cursor: pointer;
   font-size: 1.1rem;
@@ -140,7 +140,17 @@
 @media screen and (max-width: 1030px) {
   .side-card__container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
+    position: static;
+    padding: 10% 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .side-card__container {
+    width: 100%;
+    min-height: 80vh;
     position: static;
     padding: 10% 0;
     justify-content: center;
