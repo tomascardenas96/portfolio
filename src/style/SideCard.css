@@ -155,9 +155,9 @@
   }
 }
 
-@media screen and (max-height: 700px) and (max-width: 1600px) {
+@media screen and (max-height: 700px) and (max-width: 2000px) {
   html {
-    font-size: 50%;
+    font-size: 80%;
   }
 
   .side-card__container {
