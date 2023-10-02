@@ -2,7 +2,7 @@
 
 .side-card__container {
   width: 28vw;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@
 
 .side-card {
   min-width: 24.375rem;
-  height: 81%;
+  height: 46rem;
   border: 1px solid #c4480045;
   border-radius: 4.375rem 0px 4.375rem 0px;
   display: flex;
