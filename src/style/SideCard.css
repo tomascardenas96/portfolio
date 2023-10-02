@@ -140,7 +140,6 @@
 @media screen and (max-width: 1030px) {
   .side-card__container {
     width: 100%;
-    min-height: 80vh;
     position: static;
     padding: 10% 0;
     justify-content: center;
@@ -150,9 +149,22 @@
 @media screen and (max-width: 1030px) {
   .side-card__container {
     width: 100%;
-    min-height: 80vh;
     position: static;
     padding: 10% 0;
     justify-content: center;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .side-card {
+    min-width: 21rem;
+    height: 38rem;
+    border: 1px solid #c4480045;
+    border-radius: 4.375rem 0px 4.375rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.285);
+    margin: 0 5%;
   }
 }
