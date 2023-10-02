@@ -60,7 +60,8 @@
   flex-grow: 4;
   padding: 0.625rem;
   background-image: url("../assets/tt.jpg");
-  background-size: cover;
+  background-size: 21rem;
+  background-repeat: no-repeat;
   border-radius: 4.375rem 0px 4.375rem 0px;
 }
 
