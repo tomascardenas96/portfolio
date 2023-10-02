@@ -157,7 +157,7 @@
 
 @media screen and (max-height: 700px) and (max-width: 2000px) {
   html {
-    font-size: 80%;
+    font-size: 60%;
   }
 
   .side-card__container {
