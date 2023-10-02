@@ -57,7 +57,7 @@
 }
 
 .side-card__content__picture {
-  flex-grow: 4;
+  flex-grow: 6;
   padding: 0.625rem;
   background-image: url("../assets/tt.jpg");
   background-size: 21rem;
@@ -147,18 +147,9 @@
   }
 }
 
-@media screen and (max-width: 1030px) {
-  .side-card__container {
-    width: 100%;
-    position: static;
-    padding: 10% 0;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-height: 700px) and (max-width: 1300px) {
+@media screen and (max-height: 800px) and (max-width: 2000px) {
   html {
-    font-size: 68%;
+    font-size: 84%;
   }
 
   .side-card__container {
