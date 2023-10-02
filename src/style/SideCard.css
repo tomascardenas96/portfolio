@@ -8,7 +8,6 @@
   align-items: center;
   background-color: transparent;
   z-index: 1500;
-  /* top: 0; */
 }
 
 .side-card {
@@ -79,7 +78,6 @@
 }
 
 .side-card__content__info p:nth-child(2) {
-  margin-top: -1.875rem;
   font-size: 1.2rem;
 }
 
