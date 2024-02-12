@@ -1,0 +1,85 @@
+*::selection {
+    background-color: #ffe54c;
+}
+
+.presentation-page__container {
+  min-height: calc(100svh - 5rem);
+  display: grid;
+}
+
+.presentation-page__content {
+  padding: 2rem;
+  display: grid;
+  gap: 0.2rem;
+  grid-template-rows: 1fr 8fr 4fr;
+}
+
+.presentation-page__content div {
+    /* background-color: lightcyan; */
+}
+
+.presentation-page__content-info {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: .5rem;
+  margin-top: .6rem;
+
+  & h1 {
+    /* background-color: red; */
+    font-size: 3rem;
+    max-width: 25ch;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.675);
+    & .greeting-icon{
+        color: rgba(145, 0, 0, 0.725);
+    }
+    & span {
+        background-color: #ffe54c;
+        border-radius: .4rem;
+    }
+  }
+  & p {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.556);
+  }
+  & p:nth-child(2) {
+    /* background-color: green; */
+    max-width: 40ch;
+  }
+}
+
+.presentation-page__content-curriculum {
+  display: grid;
+  place-content: center;
+
+  & button {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 2rem 3rem 2rem;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  & button:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+
+  & button:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-size: 100%;
+  background-color: #f798242c;
+}
+
+.main-container {
+  min-height: 100svh;
+  display: grid;
+  grid-template-columns: 28rem 1fr;
+  grid-template-rows: 5rem max-content 2.5rem;
+}
+
+.main-container__header {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: minmax(max-content, 1fr);
+  justify-content: center;
+}
+
+.main-container__side-card {
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.main-container__main-content {
+  min-height: calc(100svh - 5rem);
+}
+
+.main-container__main-content > div {
+  /* background-color: red; */
+  padding: 0 2rem;
+}
+
+.main-container__footer {
+  grid-column: 1 / 3;
+  background-color: #31393c;
+  display: grid;
+  place-content: center;
+  color: white;
+}
