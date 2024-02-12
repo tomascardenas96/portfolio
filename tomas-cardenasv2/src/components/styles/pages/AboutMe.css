@@ -1,0 +1,8 @@
+.about-page__container {
+    margin-top: 5rem;
+    min-height: 50svh;
+}
+
+.about-page__content {
+    margin: 2rem;
+}

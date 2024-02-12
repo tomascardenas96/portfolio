@@ -1,56 +1,59 @@
 *::selection {
-    background-color: #ffe54c;
+  background-color: #ffe54c;
 }
 
 .presentation-page__container {
-  min-height: calc(100svh - 5rem);
   display: grid;
 }
 
 .presentation-page__content {
   padding: 2rem;
   display: grid;
-  gap: 0.2rem;
-  grid-template-rows: 1fr 8fr 4fr;
-}
-
-.presentation-page__content div {
-    /* background-color: lightcyan; */
 }
 
 .presentation-page__content-info {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
-  gap: .5rem;
-  margin-top: .6rem;
+  grid-template-rows: repeat(3, min-content);
+  gap: 0.5rem;
+  margin-top: 0.6rem;
 
   & h1 {
-    /* background-color: red; */
+    margin: 2rem 0;
     font-size: 3rem;
     max-width: 25ch;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.675);
-    & .greeting-icon{
-        color: rgba(145, 0, 0, 0.725);
-    }
+
     & span {
-        background-color: #ffe54c;
-        border-radius: .4rem;
+      background-color: #ffe54c;
+      border-radius: 0.4rem;
+      color: rgb(233, 157, 16);
     }
   }
+
   & p {
     font-size: 1.3rem;
-    color: rgba(0, 0, 0, 0.556);
+    color: rgba(0, 0, 0, 0.455);
   }
+
   & p:nth-child(2) {
-    /* background-color: green; */
     max-width: 40ch;
+  }
+
+  & p:nth-child(3) {
+    margin: 4rem 0;
   }
 }
 
 .presentation-page__content-curriculum {
   display: grid;
-  place-content: center;
+  justify-content: center;
+  align-items: start;
+  padding-top: 1rem;
+
+  & div {
+    display: grid;
+  }
 
   & button {
     font-size: 16px;
@@ -66,6 +69,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
   }
+
   & button:after {
     content: "";
     background-color: #ffe54c;

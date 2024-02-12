@@ -16,10 +16,10 @@
     /* background-color: red; */
     color: #31393C;
     padding: .4rem 0;
-    
+    transition:all .1s ease;
 }
 
 .header-menu__container > ul li:hover {
     border-bottom: 2px solid black;
-    /* margin-top: 2px; */
+    margin-bottom: -2px;
 }

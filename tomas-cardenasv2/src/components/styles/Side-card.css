@@ -9,7 +9,7 @@
   backdrop-filter: blur(8.9px);
   -webkit-backdrop-filter: blur(8.9px);
   border: 1px solid rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.371);
+  background-color: rgba(255, 255, 255, 0.477);
   position: fixed;
   top: 50%;
   bottom: 50%;
@@ -20,7 +20,7 @@
   width: 85%;
   height: 90%;
   display: grid;
-  grid-template-rows: 1fr 7fr 7fr;
+  grid-template-rows: 2fr 7fr 7fr;
   gap: .5rem;
   padding: 0 0.5rem;
 }
@@ -30,8 +30,7 @@
   grid-template-columns: 1fr 1fr;
   gap: .5rem;
   padding: 0 1rem;
-  margin-bottom: -2rem;
-  align-items: end;
+  align-items: center;
 }
 
 .side-card__container-content_header h1 {
@@ -40,7 +39,7 @@
   font-style: normal;
   margin-left: 0.8rem;
   font-size: 2.3rem;
-  color: rgba(255, 89, 0, 0.949);
+  color: rgba(255, 0, 0, 0.963);
 }
 
 .side-card__container-content_header p {
@@ -50,8 +49,10 @@
 }
 
 .side-card__container-content_image {
-    display: grid;
-    place-content: center;
+  display: grid;
+  place-content: center;
+  background-color: white;
+  border-radius: 2rem 0;
   }
   
   .side-card__container-content_image img {
@@ -60,7 +61,6 @@
     place-items: center;
     border-radius: 2rem 0;
     padding: .2rem;
-    background-color: white;
 }
 
 .info-email {

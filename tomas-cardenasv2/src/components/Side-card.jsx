@@ -16,7 +16,7 @@ function SideCard() {
           </div>
           <div className="side-card__container-content_image">
             <img
-              src="https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg"
+              src="https://pbs.twimg.com/profile_images/1421103881241595919/CG2JX5dO_400x400.jpg"
               alt="profile-tomas-cardenas"
             />
           </div>

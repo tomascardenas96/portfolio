@@ -11,7 +11,7 @@
 body {
   width: 100%;
   font-size: 100%;
-  background-color: #f798242c;
+  background: linear-gradient(#ffa8371b, #ffa8375f );
 }
 
 .main-container {
@@ -34,10 +34,6 @@ body {
   place-items: center;
   position: relative;
   width: 100%;
-}
-
-.main-container__main-content {
-  min-height: calc(100svh - 5rem);
 }
 
 .main-container__main-content > div {
