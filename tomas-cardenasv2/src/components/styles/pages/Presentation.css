@@ -27,7 +27,7 @@
     & span {
       background-color: #ffe54c;
       border-radius: 0.4rem;
-      color: rgb(233, 157, 16);
+      color: rgba(0, 0, 0, 0.533);
     }
   }
 
@@ -68,6 +68,8 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    display: flex;
+    gap: 1rem;
   }
 
   & button:after {

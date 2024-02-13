@@ -1,0 +1,8 @@
+.contact-page__container {
+    display: grid;
+
+}
+
+.contact-page__content {
+    padding: 2rem;
+}

@@ -28,7 +28,7 @@ function Presentation() {
           <p>If you want to know more about me, please scroll down</p>
         </div>
         <div className="presentation-page__content-curriculum">
-            <button role="button">Download CV!</button>
+            <button role="button"><SlCloudDownload /> Download CV!</button>
         </div>
       </div>
     </section>

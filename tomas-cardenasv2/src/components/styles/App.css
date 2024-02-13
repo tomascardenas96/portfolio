@@ -11,14 +11,14 @@
 body {
   width: 100%;
   font-size: 100%;
-  background: linear-gradient(#ffa8371b, #ffa8375f );
+  background: linear-gradient(#ffa8371b, #ffa8371c );
 }
 
 .main-container {
   min-height: 100svh;
   display: grid;
   grid-template-columns: 28rem 1fr;
-  grid-template-rows: 5rem max-content 2.5rem;
+  grid-template-rows: 5rem max-content 2.2rem;
 }
 
 .main-container__header {
@@ -47,4 +47,5 @@ body {
   display: grid;
   place-content: center;
   color: white;
+  font-size: .8rem;
 }

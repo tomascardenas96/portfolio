@@ -31,7 +31,7 @@ function App() {
             <SideMenu />
           </div>
         </section>
-        <section className="main-container__footer">Footer</section>
+        <section className="main-container__footer">© 2023 Tomás. All Rights Reserved</section>
       </main>
     </>
   );

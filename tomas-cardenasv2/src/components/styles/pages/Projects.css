@@ -1,0 +1,13 @@
+.projects-page__container {
+    display: grid;
+    min-height: 100svh;
+}
+
+.projects-page__content {
+    padding: 2rem;
+    display: grid;
+
+    & p {
+        justify-self: center;
+    }
+}

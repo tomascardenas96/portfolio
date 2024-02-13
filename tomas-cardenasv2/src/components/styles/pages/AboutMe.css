@@ -1,8 +1,17 @@
 .about-page__container {
-    margin-top: 5rem;
-    min-height: 50svh;
+  margin-top: 5rem;
+  min-height: 50svh;
+  /* background-color: red; */
 }
 
 .about-page__content {
-    margin: 2rem;
+  margin: 2rem;
+  display: grid;
+  gap: 5rem;
+
+  & p.about-page__content-pharag {
+    max-width: 50ch;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
 }
