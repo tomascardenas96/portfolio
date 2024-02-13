@@ -9,6 +9,7 @@
 .presentation-page__content {
   padding: 2rem;
   display: grid;
+  padding-right: 5rem;
 }
 
 .presentation-page__content-info {

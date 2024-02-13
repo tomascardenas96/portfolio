@@ -1,7 +1,7 @@
 import React from "react";
 import { PiEnvelopeSimpleThin } from "react-icons/pi";
 import Bookmarker from "../Bookmarker";
-import "../styles/pages/AboutMe.css";
+import "../styles/pages/ContactMe.css";
 
 function ContactMe() {
   return (
@@ -23,7 +23,7 @@ function ContactMe() {
           <label htmlFor=""> Your message
             <textarea name="" id="" cols="30" rows="10"></textarea>
           </label>
-          <input type="submit" value="Enviar" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
     </section>
