@@ -17,7 +17,7 @@ import SkillCard from "../SkillCard";
 function Skills() {
   return (
     <section className="skills-page__container">
-      <div className="skills-page__content">
+      <div className="skills-page__content" id="skills">
         <div className="skills-page__content-marker">
           <Bookmarker icon={<CiGrid32 />} name="Skills" />
         </div>

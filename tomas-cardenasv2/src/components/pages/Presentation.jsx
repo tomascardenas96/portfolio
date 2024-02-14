@@ -9,7 +9,7 @@ function Presentation() {
   return (
     <section className="presentation-page__container">
       <div className="presentation-page__content">
-        <div className="presentation-page__content-marker">
+        <div className="presentation-page__content-marker" id="presentation">
           <Bookmarker icon={<CiHome />} name="Presentation" />
         </div>
         <div className="presentation-page__content-info">

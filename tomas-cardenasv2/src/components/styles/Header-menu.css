@@ -13,10 +13,12 @@
 .header-menu__container > ul li {
     list-style: none;
     cursor: pointer;
-    /* background-color: red; */
-    color: #31393C;
     padding: .4rem 0;
-    transition:all .1s ease;
+    
+    & a {
+        text-decoration: none;
+        color: #31393C;
+    }
 }
 
 .header-menu__container > ul li:hover {

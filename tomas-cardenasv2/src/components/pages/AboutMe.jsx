@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <section className="about-page__container">
       <div className="about-page__content">
-        <div className="about-page__content-marker">
+        <div className="about-page__content-marker" id="about-me">
           <Bookmarker icon={<CiUser />} name="About me" />
         </div>
         <p className="about-page__content-pharag">

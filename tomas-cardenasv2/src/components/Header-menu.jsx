@@ -5,11 +5,11 @@ function HeaderMenu() {
   return (
     <div className="header-menu__container">
       <ul>
-        <li>PRESENTATION</li>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>PROJECTS</li>
-        <li>CONTACT</li>
+        <li><a href="#presentation">PRESENTATION</a></li>
+        <li><a href="#about-me">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact-me">CONTACT</a></li>
       </ul>
     </div>
   );
