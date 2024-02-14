@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
 .about-page__container {
   margin-top: 5rem;
   min-height: 50svh;
@@ -6,12 +8,79 @@
 .about-page__content {
   margin: 2rem;
   display: grid;
-  gap: 5rem;
+  gap: 3rem;
   padding-right: 5rem;
 
   & p.about-page__content-pharag {
-    max-width: 50ch;
     font-size: 1.2rem;
     line-height: 1.8rem;
+    padding-right: 9rem;
+    text-align: justify;
+  }
+}
+
+.about-page__content-soft-skills,
+.about-page__content-languages {
+  padding-right: 9rem;
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 1rem;
+
+  & .skills__title,
+  .languages__title {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    color: #c44800b8;
+  }
+
+  & ul {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+    & li {
+      list-style: none;
+      border-radius: 3rem;
+      display: flex;
+      padding: 0.6rem 0;
+      justify-content: center;
+      background-color: white;
+      color: black;
+      border: 1px solid #c44800b8;
+      position: relative;
+
+      & p {
+        position: absolute;
+        left: 2rem;
+        top: 0;
+        font-size: 0.8rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: #c44800b8;
+      }
+    }
+  }
+}
+
+.about-page__content-languages {
+  margin-bottom: 3rem;
+  & ul li {
+    gap: .5rem;
+  }
+
+  & ul li p{
+    font-size: 1rem;
+    color: black;
+    position:static;
+    text-decoration: underline;
+  }
+
+  & ul li span {
+    color: rgba(0, 0, 0, 0.707);
   }
 }

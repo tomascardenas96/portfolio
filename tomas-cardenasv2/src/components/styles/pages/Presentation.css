@@ -18,6 +18,7 @@
   gap: 0.5rem;
   margin-top: 0.6rem;
 
+
   & h1 {
     margin: 2rem 0;
     font-size: 3rem;
@@ -36,9 +37,10 @@
     font-size: 1.3rem;
     color: rgba(0, 0, 0, 0.455);
   }
-
+  
   & p:nth-child(2) {
     max-width: 40ch;
+    padding-left: 1rem;
   }
 
   & p:nth-child(3) {
