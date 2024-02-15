@@ -5,16 +5,18 @@
 .contact-page__content {
   display: grid;
   gap: 2.2rem;
-  /* background-color: lightblue; */
-  padding: 0 7rem 0 0;
+  padding: 0 3rem 0 0;
+  margin: 2rem;
+  /* background-color: green; */
 }
 
 .contact-page__content > form {
   display: grid;
   justify-content: start;
   gap: 1.5rem;
-  grid-template-columns: minmax(30rem, .95fr);
+  grid-template-columns: minmax(30rem, .85fr);
   padding: 1rem 0 8rem 0;
+  /* background-color: red; */
 
   & label {
     display: grid;

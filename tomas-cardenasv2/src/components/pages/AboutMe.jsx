@@ -20,42 +20,50 @@ function AboutMe() {
           a cup of hot coffee and a code editor.
         </p>
 
-        <div className="about-page__content-soft-skills">
-          <h1 className="skills__title">Soft skills</h1>
-          <ul>
-            <li>
-              <p>1-</p>Empathy
-            </li>
-            <li>
-              <p>2-</p>assertive communication
-            </li>
-            <li>
-              <p>3-</p>respect
-            </li>
-            <li>
-              <p>4-</p>emotional intelligence
-            </li>
-            <li>
-              <p>5-</p>time management
-            </li>
-            <li>
-              <p>6-</p>self-development
-            </li>
-            <li>
-              <p>7-</p>ability to listen
-            </li>
-            <li>
-              <p>8-</p>patience
-            </li>
-          </ul>
-        </div>
+        <div className="about-page__content-skills__container">
+          <div className="about-page__content-soft-skills">
+            <h1 className="skills__title">Soft skills</h1>
+            <ul>
+              <li>
+                <p>1-</p>Empathy
+              </li>
+              <li>
+                <p>2-</p>assertive communication
+              </li>
+              <li>
+                <p>3-</p>respect
+              </li>
+              <li>
+                <p>4-</p>emotional intelligence
+              </li>
+              <li>
+                <p>5-</p>time management
+              </li>
+              <li>
+                <p>6-</p>self-development
+              </li>
+              <li>
+                <p>7-</p>ability to listen
+              </li>
+              <li>
+                <p>8-</p>patience
+              </li>
+            </ul>
+          </div>
 
-        <div className="about-page__content-languages">
-          <h1 className="languages__title">Languages</h1>
-          <ul>
-            <li><p>Spanish:</p><span>Native</span></li>
-            <li><p>English:</p><span>Intermediate (B2)</span></li>
-          </ul>
+          <div className="about-page__content-languages">
+            <h1 className="languages__title">Languages</h1>
+            <ul>
+              <li>
+                <p>Spanish:</p>
+                <span>Native</span>
+              </li>
+              <li>
+                <p>English:</p>
+                <span>Intermediate (B2)</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

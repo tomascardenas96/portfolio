@@ -9,28 +9,34 @@
   margin: 2rem;
   display: grid;
   gap: 3rem;
-  /* padding-right: 2rem; */
+}
 
-  & p.about-page__content-pharag {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    padding-right: 9rem;
-    text-align: justify;
-  }
+.about-page__content-pharag {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-right: 9rem;
+  text-align: justify;
+}
+
+.about-page__content-skills__container {
+  display: grid;
+  grid-template-columns: minmax(min-content, 50rem);
+  width: 100%;
+  padding-right: 8rem;
+  justify-content: center;
 }
 
 .about-page__content-soft-skills,
 .about-page__content-languages {
-  padding-right: 9rem;
   display: grid;
   gap: 1.2rem;
   margin-top: 1rem;
+  
 
   & .skills__title,
   .languages__title {
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
-    font-style: normal;
     display: grid;
     justify-content: center;
     font-size: 2rem;
@@ -70,13 +76,13 @@
 .about-page__content-languages {
   margin-bottom: 3rem;
   & ul li {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
-  & ul li p{
+  & ul li p {
     font-size: 1rem;
     color: black;
-    position:static;
+    position: static;
     text-decoration: underline;
   }
 

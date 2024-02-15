@@ -21,7 +21,7 @@ function Skills() {
         <div className="skills-page__content-marker">
           <Bookmarker icon={<CiGrid32 />} name="Skills" />
         </div>
-        <div className="skills-page__content-marker">
+        <div className="skills-page__skill-cards">
           <SkillCard icon={<FaHtml5 style={{color: '#E44D26'}}/>} name="HTML" />
           <SkillCard icon={<FaCss3 style={{color: '#1771B1'}}/>} name="Css" />
           <SkillCard icon={<IoLogoJavascript style={{color: '#D8B72A'}}/>} name="Javascript" />

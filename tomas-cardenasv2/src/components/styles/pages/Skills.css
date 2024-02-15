@@ -1,15 +1,19 @@
 .skills-page__container {
-    /* min-height: 100svh; */
-    display: grid;
+  display: grid;
 }
 
 .skills-page__content {
-    display: grid;
-    padding: 2rem;
-    gap: 2rem;
+  display: grid;
+  gap: 2rem;
 }
 
 .skills-page__content-marker {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,280px));
+  margin: 3rem 0 0 2rem;
+}
+
+.skills-page__skill-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+  place-content: center;
+  width: 90%;
 }
